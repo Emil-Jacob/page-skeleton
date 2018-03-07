@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
-//import routeSource from './routes';
-//import referenctiallyEqualRootRoute from './referentially-equal-root-route';
-//const routes = Object.assign(referenctiallyEqualRootRoute, routeSource);
-import HomePage from './components/homepage';
+import 'semantic-ui-css/semantic.min.css';
+import HomePage from './components/homepage/homepage';
 
 const mountApp = document.getElementById('react-app');
 
